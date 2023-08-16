@@ -1,19 +1,12 @@
 package main
 
-import (
-	"fmt"
-	"mymod/mypackage"
-)
-
-func add(a, b int) int {
-	return a + b
-}
+import "fmt"
 
 func main() {
-	var newNumber int
-	newNumber = add(2, 3)
+	fmt.Println("ATTENTION")
 
-	fmt.Println(newNumber)
-	mypackage.Testfunc()
+	name := "for handouts about vscode configuration"
+	fmt.Println("go to learn.microsoft.com", name)
 
+	fmt.Println("")
 }
